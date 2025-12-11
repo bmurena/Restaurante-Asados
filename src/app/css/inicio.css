@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'Lobster', cursive;
+    background-color: #000;
+    color: white;
+}
+
+
+.navbar {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #111;
+    text-align: center;
+}
+
+.logo {
+    font-size: 70px;
+    margin: 0;
+}
+
+
+.menu {
+    margin-top: 10px;
+}
+
+.menu a {
+    font-size: 35px;
+    margin: 0 50px;
+    color: white;
+    text-decoration: none;
+    transition: .2s;
+}
+
+.menu a:hover {
+    color: #f8d48a;
+}
+
+
+.hero {
+    height: 95vh;
+    background-image: url(../multimedia/inicio.jpg); 
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    font-size: 120px;
+    color: white;
+    text-shadow: 4px 4px 10px rgba(0,0,0,0.9);
+    text-align: center;
+    padding: 20px;
+}
